@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "legacy_source": {
+    "bootstrap.sh": "c969bdbea353c9d206f6b2e341d50fdcb246595ed63693c74b3b0dbb974febb8",
+    "cgis/__init__.py": "8dd8f0952e2ccd89b85cb02c7cbebdd7577b1a2fe1ad885f4887dac91e040b22",
+    "cgis/common.py": "b266fd40bfe1c158d4a229b0302ca2207cb27bcff582da5f026554ebb044d9d0",
+    "cgis/data.py": "d856891310bb6568b31f823e40e56af0025179055580273bc477931795dd87ef",
+    "cgis/environment.py": "6fea6a5b1ce7c884e270070af02f3cdb4ffc5b2921c8669fad14657b45661940",
+    "cgis/losses.py": "0eb2c132e5816d37caa6e4f3b8728fa1c5a8771e5df36530d72a7f1883279078",
+    "cgis/metrics.py": "b89b07fdd3438424f92a6a3e74298578a89425155e22c254f5fa07493d2cd42c",
+    "cgis/models.py": "466e231702eaf470718b90cabea9d87012a5b7706c4a7c0ed4ee8da67fdceb95",
+    "cgis/runner.py": "1b895f5ab81e5a04d18f81f01bd0fca82a895a106f041a6b1127530305dc6d3a",
+    "cgis/training.py": "a384e77147618b79e60479f1712dc98d11a41713784a8d1613cbacc2ec708c3c",
+    "cgis/weak_roles.py": "6acc3555f9f618906c51efd83e6b1ba542b5caae2d492250a662d24a9dc81664",
+    "configs/full.yaml": "36c9e2e2abc14f697f83f9b561560cab81fbb367126f1781ff9a9948a4d267f3",
+    "configs/pilot.yaml": "112580d39d94bda44a9964c03db2dc65cf04e397309a221000f3455da31e14da",
+    "requirements-dev.lock": "ed26afcc6c0146b5bf45a19c279bbaf451d8fb6e555aebfe4c281774bc4c2502",
+    "requirements.lock": "451fa2de073313af3efca3063a0c8d94542f95a758553c14b7108d734a777902",
+    "scripts/deployment_common.sh": "903c3c5ba75eac6492275a71993fff4203f64be40bc9698f3e92b87bd7ffcf47",
+    "scripts/install_ocr.sh": "2008a10efd4bc9eb602f331e9bae36a6d934d807c97ced353e79a23c58cda78e",
+    "scripts/run_worker.sh": "efe545dd4f97928b4d063362905397e10e39d119e8e4716747180be6c9e98fb5",
+    "start.sh": "b8a7d7fc279ac7b2e5fb91d830d1997099d43e9970bb8bafba53cff4e8e88469",
+    "status.sh": "0a5e0b229e469f4e9d9de35e3e1e095125f40f65863e9c8ae2dda740fb062ca2",
+    "vendor/RUNTIME_PATCHES.json": "609f18b9053c17a6f7328af7c17b9717345953e3f24155a80ca723095d1c9865",
+    "vendor/UPSTREAM.json": "3c006182c77cdf1bdc8754314675a06c2002f64aaadc375341a880ccfcb9488c",
+    "vendor/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vendor/configs/include/rtdetr_r50vd.yml": "1c771ee60ea276813c2745cd2f776004be7bdeaae6c022bb194ca8ea6a2e2786",
+    "vendor/configs/rtdetr_r18vd_6x_coco.yml": "0c1ee4bcfff1a678a1691bb1dfe6b6d3a4d62a1a52fb10b23197016ee7e6f0ea",
+    "vendor/rtdetr_pytorch/src/nn/backbone/common.py": "29ca34ee34f53ccab66e4a1d985df08ede3df9a686d4f84f861010b8f7513d44",
+    "vendor/rtdetr_pytorch/src/nn/backbone/presnet.py": "1faef37155a38d504e2ce3d569e09d8fbbf737c549d1fbb125cee9111fc7bc28",
+    "vendor/rtdetr_pytorch/src/zoo/rtdetr/box_ops.py": "a670ce02bce95c3b2304a6708c7c609f281237a7bbe8d63bcef56393a80baa4c",
+    "vendor/rtdetr_pytorch/src/zoo/rtdetr/denoising.py": "2254d6b781879f54684e5726ada5e9c99414873398cf0a42c2e11d691bece595",
+    "vendor/rtdetr_pytorch/src/zoo/rtdetr/hybrid_encoder.py": "54fcc5ffa03d52ea563a3487027e4afc0937886f4ded60b2de88beeff2a74ac4",
+    "vendor/rtdetr_pytorch/src/zoo/rtdetr/matcher.py": "7e364fbba500b0ab23e3e33b7430780cd8dcf4738bd3b961118a3b1f8acd020e",
+    "vendor/rtdetr_pytorch/src/zoo/rtdetr/rtdetr_criterion.py": "54e0f25364bf5c52ae60f8f9363dd2df7d9274657d97a881a2757b7805b739df",
+    "vendor/rtdetr_pytorch/src/zoo/rtdetr/rtdetr_decoder.py": "c2837740cb66f128b72e802463db57ee3653e15d964baa3b9cf58cc27a817588",
+    "vendor/rtdetr_pytorch/src/zoo/rtdetr/utils.py": "dc7f50339c308651b24a236718789e1575e7fc6a4c9f2915b15470bfc393c1ad",
+    "vendor/rtdetr_runtime/__init__.py": "5fa4123d2851d25414a85635d55cf3b3863868788b3610b87cdbdc0d65ceefa9",
+    "vendor/rtdetr_runtime/box_ops.py": "a670ce02bce95c3b2304a6708c7c609f281237a7bbe8d63bcef56393a80baa4c",
+    "vendor/rtdetr_runtime/common.py": "29ca34ee34f53ccab66e4a1d985df08ede3df9a686d4f84f861010b8f7513d44",
+    "vendor/rtdetr_runtime/denoising.py": "2254d6b781879f54684e5726ada5e9c99414873398cf0a42c2e11d691bece595",
+    "vendor/rtdetr_runtime/hybrid_encoder.py": "4eec2ce8bce013961cda436491f29b91ac13fee04553dc4d2b69d5557bb46215",
+    "vendor/rtdetr_runtime/matcher.py": "4a9ce2c07df9de89a05afe2cc17f6bb44744255a2ec08f4960f883ebfc372f15",
+    "vendor/rtdetr_runtime/presnet.py": "49b304c89703be841c6412e106a1bfccf78a5735b1aa28a7168a89c1979c69de",
+    "vendor/rtdetr_runtime/registry.py": "4206d310cd9f416125ab5194db3f1b5b08b9dc7eacabc317cc21624775fda020",
+    "vendor/rtdetr_runtime/rtdetr_criterion.py": "5f5085e29f102c57db06d03278a3f42d2ab8d63a471300b029f528b8ba78331e",
+    "vendor/rtdetr_runtime/rtdetr_decoder.py": "b06dd5b69f40d0e2a557e50ce0c077d1b0df05061b11a1ac4ea34c643a6794d3",
+    "vendor/rtdetr_runtime/utils.py": "dc7f50339c308651b24a236718789e1575e7fc6a4c9f2915b15470bfc393c1ad"
+  },
+  "changed_paths": {
+    "cgis/losses.py": {
+      "old_sha256": "0eb2c132e5816d37caa6e4f3b8728fa1c5a8771e5df36530d72a7f1883279078",
+      "new_sha256": "6895093b55bec6b5b0f3ace9c66ff9abdc52179485652b97545dfe745d3a1139"
+    },
+    "cgis/models.py": {
+      "old_sha256": "466e231702eaf470718b90cabea9d87012a5b7706c4a7c0ed4ee8da67fdceb95",
+      "new_sha256": "dd64ca41b23e19b819b5f50d0a335643c897323c7dbc816247a4af45c6b80caa"
+    },
+    "cgis/runner.py": {
+      "old_sha256": "1b895f5ab81e5a04d18f81f01bd0fca82a895a106f041a6b1127530305dc6d3a",
+      "new_sha256": "df84bbd1d710df74700f859e16c03aeafb8ec37e449ee3e3b11002c9216251a9"
+    },
+    "cgis/training.py": {
+      "old_sha256": "a384e77147618b79e60479f1712dc98d11a41713784a8d1613cbacc2ec708c3c",
+      "new_sha256": "76fce152b8a34eeaea43482f27009ca38b00e5bd418ee0cc37dd0a638f8498af"
+    }
+  },
+  "baseline_invariance_verified": true,
+  "baseline_invariance_scope": "CPU float32, actual archived source, same COCO initialization: baseline and legacy final with role disabled; initial state, eval/train output and losses bitwise equal",
+  "legacy_baseline_fingerprint": "62e8564f20c6a9ce903960022fb26c6dfc842187d98b3d93ab56afe0f3488ea6",
+  "checks": {
+    "baseline": {
+      "initial_state_bitwise_equal": true,
+      "eval_output_bitwise_equal": true,
+      "train_output_bitwise_equal": true,
+      "losses_bitwise_equal": true,
+      "loss_count": 21,
+      "parameters": 20086880
+    },
+    "final": {
+      "initial_state_bitwise_equal": true,
+      "eval_output_bitwise_equal": true,
+      "train_output_bitwise_equal": true,
+      "losses_bitwise_equal": true,
+      "loss_count": 28,
+      "parameters": 20309933
+    }
+  },
+  "gpu_verified": false,
+  "note": "Compatibility regression only. Does not establish extension accuracy, GPU memory, or GPU latency."
+}

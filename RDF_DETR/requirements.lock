@@ -1,0 +1,8 @@
+# CUDA framework is installed separately from the official cu121 index.
+numpy==1.26.4
+scipy==1.11.4
+Pillow==10.2.0
+PyYAML==6.0.1
+opencv-python-headless==4.8.1.78
+tqdm==4.66.2
+pycocotools==2.0.7

@@ -1,0 +1,66 @@
+{
+  "presnet.py": {
+    "source": "rtdetr_pytorch/src/nn/backbone/presnet.py",
+    "sha256": "49b304c89703be841c6412e106a1bfccf78a5735b1aa28a7168a89c1979c69de",
+    "patches": [
+      "isolated package registrar imports only"
+    ]
+  },
+  "common.py": {
+    "source": "rtdetr_pytorch/src/nn/backbone/common.py",
+    "sha256": "29ca34ee34f53ccab66e4a1d985df08ede3df9a686d4f84f861010b8f7513d44",
+    "patches": [
+      "isolated package registrar imports only"
+    ]
+  },
+  "hybrid_encoder.py": {
+    "source": "rtdetr_pytorch/src/zoo/rtdetr/hybrid_encoder.py",
+    "sha256": "4eec2ce8bce013961cda436491f29b91ac13fee04553dc4d2b69d5557bb46215",
+    "patches": [
+      "isolated package registrar imports only"
+    ]
+  },
+  "rtdetr_decoder.py": {
+    "source": "rtdetr_pytorch/src/zoo/rtdetr/rtdetr_decoder.py",
+    "sha256": "b06dd5b69f40d0e2a557e50ce0c077d1b0df05061b11a1ac4ea34c643a6794d3",
+    "patches": [
+      "isolated package registrar imports only",
+      "PyTorch Tensor.astype -> Tensor.to in optional memory-mask path"
+    ]
+  },
+  "denoising.py": {
+    "source": "rtdetr_pytorch/src/zoo/rtdetr/denoising.py",
+    "sha256": "2254d6b781879f54684e5726ada5e9c99414873398cf0a42c2e11d691bece595",
+    "patches": [
+      "isolated package registrar imports only"
+    ]
+  },
+  "utils.py": {
+    "source": "rtdetr_pytorch/src/zoo/rtdetr/utils.py",
+    "sha256": "dc7f50339c308651b24a236718789e1575e7fc6a4c9f2915b15470bfc393c1ad",
+    "patches": [
+      "isolated package registrar imports only"
+    ]
+  },
+  "box_ops.py": {
+    "source": "rtdetr_pytorch/src/zoo/rtdetr/box_ops.py",
+    "sha256": "a670ce02bce95c3b2304a6708c7c609f281237a7bbe8d63bcef56393a80baa4c",
+    "patches": [
+      "isolated package registrar imports only"
+    ]
+  },
+  "matcher.py": {
+    "source": "rtdetr_pytorch/src/zoo/rtdetr/matcher.py",
+    "sha256": "4a9ce2c07df9de89a05afe2cc17f6bb44744255a2ec08f4960f883ebfc372f15",
+    "patches": [
+      "isolated package registrar imports only"
+    ]
+  },
+  "rtdetr_criterion.py": {
+    "source": "rtdetr_pytorch/src/zoo/rtdetr/rtdetr_criterion.py",
+    "sha256": "5f5085e29f102c57db06d03278a3f42d2ab8d63a471300b029f528b8ba78331e",
+    "patches": [
+      "isolated package registrar imports only"
+    ]
+  }
+}

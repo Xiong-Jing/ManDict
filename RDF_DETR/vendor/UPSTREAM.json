@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/lyuwenyu/RT-DETR",
+  "commit": "df2a96c8c3a098567a1149bf0248da6efe6d495d",
+  "files": {
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "rtdetr_pytorch/src/nn/backbone/presnet.py": "1faef37155a38d504e2ce3d569e09d8fbbf737c549d1fbb125cee9111fc7bc28",
+    "rtdetr_pytorch/src/nn/backbone/common.py": "29ca34ee34f53ccab66e4a1d985df08ede3df9a686d4f84f861010b8f7513d44",
+    "rtdetr_pytorch/src/zoo/rtdetr/hybrid_encoder.py": "54fcc5ffa03d52ea563a3487027e4afc0937886f4ded60b2de88beeff2a74ac4",
+    "rtdetr_pytorch/src/zoo/rtdetr/rtdetr_decoder.py": "c2837740cb66f128b72e802463db57ee3653e15d964baa3b9cf58cc27a817588",
+    "rtdetr_pytorch/src/zoo/rtdetr/denoising.py": "2254d6b781879f54684e5726ada5e9c99414873398cf0a42c2e11d691bece595",
+    "rtdetr_pytorch/src/zoo/rtdetr/utils.py": "dc7f50339c308651b24a236718789e1575e7fc6a4c9f2915b15470bfc393c1ad",
+    "rtdetr_pytorch/src/zoo/rtdetr/box_ops.py": "a670ce02bce95c3b2304a6708c7c609f281237a7bbe8d63bcef56393a80baa4c",
+    "rtdetr_pytorch/src/zoo/rtdetr/matcher.py": "7e364fbba500b0ab23e3e33b7430780cd8dcf4738bd3b961118a3b1f8acd020e",
+    "rtdetr_pytorch/src/zoo/rtdetr/rtdetr_criterion.py": "54e0f25364bf5c52ae60f8f9363dd2df7d9274657d97a881a2757b7805b739df",
+    "configs/rtdetr_r18vd_6x_coco.yml": "0c1ee4bcfff1a678a1691bb1dfe6b6d3a4d62a1a52fb10b23197016ee7e6f0ea",
+    "configs/include/rtdetr_r50vd.yml": "1c771ee60ea276813c2745cd2f776004be7bdeaae6c022bb194ca8ea6a2e2786"
+  }
+}
